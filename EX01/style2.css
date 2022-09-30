@@ -1,0 +1,315 @@
+
+.style{
+    width: 1728px;
+    height: 1117px;
+}
+
+
+.header{
+    position: absolute;
+    width: 1774px;
+    height: 143px;
+    left: -46px;
+    top: -20px;
+    border-bottom: 2px solid #B1B1B1;   
+}
+.logo_elle{
+    position: absolute;
+    width: 193px;
+    height: 68px;
+    left: 248px;
+    top: 51px;
+}
+.icons_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    width: 839px;
+    height: 63px;
+    left: 887px;
+    top: 51px;
+}
+.nav_icons{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 412px;
+    height: 46px;
+    left: 887px;
+    top: 62px;
+}
+.logo_lien{
+    width: 42px;
+    height: 42px;
+}
+.se_connecter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 323px;
+    height: 63px;
+    left: 1403px;
+    top: 31px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+
+    color: #000000;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 1881px;
+    height: 68px;
+    left: -46px;
+    top: 123px;
+    border: 2px solid #B1B1B1;
+}
+.menu{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 243px;
+    top: 11px; 
+    }
+.theme{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+    width: 158px;
+    height: 63px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+
+    color: #000000;
+}
+#rouge{
+    width: 230px;
+    color: #F70E0E;
+}
+
+
+.kim_k_group_photo{
+    position: absolute;
+    left: 17px;
+    top: 216px;
+}
+
+.photo_kim{
+    width: 753px;
+    height: 882px;
+    object-fit: cover;
+}
+
+.rectangle{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 753px;
+    height: 229px;
+    left: 0px;
+    top: 653px;
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.02) 0%, rgba(0, 0, 0, 0.91) 46.89%, #000000 100%);   
+}
+
+.rectangle2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 595px;
+    height: 115px;
+    border: 1px solid white;
+}
+
+.kim_fashion_week{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 565px;
+    height: 104px;
+
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 0.3em;
+
+    color: #FFFFFF;
+}
+
+.tagbar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    position: absolute;
+    width: 753px;
+    height: 86px;
+    left: 0px;
+    top: 0px;
+    background: black;
+}
+
+
+.texte_tagbar{
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-decoration-line: underline;
+    
+    color: #FFFFFF;
+}
+
+
+
+.sephora_ad{
+    position: absolute;
+    width: 854px;
+    height: 155px;
+    object-fit: scale-down;
+    left: 826px;
+    top: 217px;
+    border: 1px solid #E8E8E8;   
+}
+
+.titre{
+    position: absolute;
+    width: 854px;
+    height: 60px;
+    left: 826px;
+    top: 379px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 26px;
+    /* or 26px */
+    
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.sous_titre{
+    position: absolute;
+    width: 850px;
+    height: 49px;
+    left: 830px;
+    top: 461px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.paragraphe{
+    position: absolute;
+    width: 850px;
+    height: 170px;
+    left: 830px;
+    top: 487px;
+    
+    font-family: 'Bellefair';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    display: flex;
+    align-items: center;
+    
+    color: #000000;
+}
+
+.the_only_one_ad{
+    position: absolute;
+    width: 329px;
+    height: 437px;
+    left: 830px;
+    top: 650px;
+    object-fit: cover;
+    
+    background: url(the_only_one_ad.png);
+}
+
+.milano_fashion_week{
+    position: absolute;
+    width: 253px;
+    height: 225px;
+    left: 1166px;
+    top: 649px;
+    object-fit: cover;
+    
+    background: rgba(0, 0, 0, 0.6);
+}
+
+.tendinite{
+    position: absolute;
+    width: 257px;
+    height: 224px;
+    left: 1423px;
+    top: 650px;
+    object-fit: cover;
+    
+    background: url(tendinite-definition.jpg);
+}
+
+.photo_famille_kardashian{
+    position: absolute;
+    width: 515px;
+    height: 101px;
+    left: 1165px;
+    top: 879px;
+
+    background: url(the-kardashians-hulu.jpg);
+}
+
+.sephora_logo{
+    position: absolute;
+    width: 515px;
+    height: 101px;
+    left: 1165px;
+    top: 985px;
+    object-fit: cover;
+    
+    background: url(sephora-logo.jpg);
+}
+
+@font-face {
+    font-family: Oswald;
+    src: url(./oswald/Oswald-Regular.ttf);
+}
+@font-face {
+    font-family: Bellefair;
+    src: url(./Bellefair/Bellefair-Regular.ttf);
+}

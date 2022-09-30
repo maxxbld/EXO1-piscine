@@ -1,0 +1,87 @@
+.style{
+    position: relative;
+    width: 1728px;
+    height: 1117px;
+    
+    background: #FFFFFF;
+}
+/*
+.icons_container{
+    position: absolute;
+    width: 839px;
+    height: 63px;
+    left: 841px;
+    top: 31px;
+    border: 1px solid black;
+}
+*/
+
+.se_connecter{
+    position: absolute;
+    width: 323px;
+    height: 63px;
+    left: 1357px;
+    top: 31px;
+    
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.3em;
+    
+    color: #000000;    
+}
+
+.facebook{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 841px;
+    top: 42px;
+}
+.twitter{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 915px;
+    top: 42px;
+}
+.pinterest{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 989px;
+    top: 42px;    
+}
+.youtube{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1063px;
+    top: 42px;    
+}
+.instagram{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1137px;
+    top: 42px;    
+}
+.snapchat{
+    position: absolute;
+    width: 42px;
+    height: 42px;
+    left: 1211px;
+    top: 42px;
+}
+
+
+.logo_elle{
+    width: 193px;
+    height: 68px;
+}
+
