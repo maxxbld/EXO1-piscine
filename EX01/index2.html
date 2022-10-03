@@ -7,66 +7,58 @@
 </head>
 
 <!-- les éléments se referrent à l'élément parent, pas au bord de la page -->
-<body class="style">
-    <header class="header">
-        <img src="./images/Elle.png" alt="logo_elle" class="logo_elle">
-        <div class="icons_container">
-            <div class="nav_icons">
-                <img src="./images/icons/facebook.png" alt="logo facebook" class="logo_lien">
-                <img src="./images/icons/twitter.png" alt="logo twitter" class="logo_lien">
-                <img src="./images/icons/pinterest.png" alt="logo pinterest" class="logo_lien">
-                <img src="./images/icons/youtube.png" alt="logo youtube" class="logo_lien">
-                <img src="./images/icons/instagram.png" alt="logo instagram" class="logo_lien">
-                <img src="./images/icons/snapchat.png" alt="logo snapchat" class="logo_lien">
-            </div>
-            <span class="se_connecter"> SE CONNECTER </span>
-        </div>
-    </header>
-
-    <div class="navbar">
-        <img src="./images/icons/menu.png" alt="bouton menu" class="menu">
-        <p class="theme"> MODE </p>
-        <p class="theme"> BEAUTE</p>
-        <p class="theme"> PEOPLE </p>
-        <p class="theme"> CULTURE </p>
-        <p class="theme"> SOCIETE </p>
-        <p class="theme" id="rouge"> FASHION WEEK </p>
+<body>
+<header class="header">
+    <img src="./images/Elle.png" alt="logo_elle" class="logo_elle">
+    <div class="nav_icons">
+        <img src="./images/icons/facebook.png" alt="logo facebook" class="logo_lien">
+        <img src="./images/icons/twitter.png" alt="logo twitter" class="logo_lien">
+        <img src="./images/icons/pinterest.png" alt="logo pinterest" class="logo_lien">
+        <img src="./images/icons/youtube.png" alt="logo youtube" class="logo_lien">
+        <img src="./images/icons/instagram.png" alt="logo instagram" class="logo_lien">
+        <img src="./images/icons/snapchat.png" alt="logo snapchat" class="logo_lien">
     </div>
+    <p class="se_connecter"> SE CONNECTER </p>
+</header>
 
-    <div>
-        <div class="kim_k_group_photo">
-            <img class="photo_kim" src="./images/kim-kardashian-los-angeles-premiere-of-the-kardashians-2022-hulu-press.jpg" alt="photo de kim kardashian">
-            <div class="rectangle"> 
-                <div class="rectangle2">
-                    <p class="kim_fashion_week"> MEET KIM AT THE FASHION WEEK</p>
-                </div>
-            </div>
-            <div class="tagbar">
-                <p class="texte_tagbar"> FASHION WEEK </p>
-                <p class="texte_tagbar"> KIM KARDASHIAN </p>
-                <p class="texte_tagbar"> MILAN </p>
-                <p class="texte_tagbar"> KANYE WEST</p>
-            </div>
+<nav class="navbar">
+    <img src="./images/icons/menu.png" alt="bouton menu" class="menu">
+    <p class="theme"> MODE </p>
+    <p class="theme"> BEAUTE</p>
+    <p class="theme"> PEOPLE </p>
+    <p class="theme"> CULTURE </p>
+    <p class="theme"> SOCIETE </p>
+    <p class="theme" id="rouge"> FASHION WEEK </p>
+</nav>
 
+<main>
+    <div class="photo_kim">
+        <ul class="tagbar">
+            <li class="texte_tagbar">FASHION WEEK</li>
+            <li class="texte_tagbar"> KIM KARDASHIAN</li>
+            <li class="texte_tagbar"> MILAN</li>
+            <li class="texte_tagbar"> KANYE WEST</li>
+        </ul>
+
+        <div class="rectangle"> 
+            <p class="kim_fashion_week"> MEET KIM AT THE FASHION WEEK</p>
         </div>
-       <div>
-            <img class="sephora_ad" src="./images/sephora_ad.png" alt="campagne dolce gabana">
-        </div>
-        <div class="article">
-            <p class="titre"> Fashion Week de Milan : Kim Kardashian collabore avec Dolce & Gabbana lors d’un défilé-événement</p>
-            <p class="sous_titre"> Ce samedi 24 septembre, la maison de couture italienne a présenté sa collection printemps-été 2023, en collaboration avec Kim Kardashian. </p>
-            <p class="paragraphe"> Après New York et Londres, l’édition italienne de la Fashion Week s’est lancée à Milan le 20 septembre dernier avant d’investir la capitale française ce lundi 26 septembre. Entre les défilés-évènements, à l’instar de celui de Moncler qui fêtait ses 70 ans d’existence, et les grandes maisons italiennes qui ont placé la barre (très) haute cette saison, l’édition milanaise de la semaine de la mode nous a régalé durant 6 jours. </p>
-        </div>
-        <div>
-            <img class="the_only_one_ad" src="./images/the_only_one_ad.png" alt="image parfum the only one">
-            <img class="milano_fashion_week" src="./images/b63ba849-city-53596-163d1a05b9e.jpg" alt="image de galeries commercante">
-            <img class="tendinite" src="./images/tendinite-definition.jpg" alt="image d'une femme souffrant d'une tendinite">
-            <img class="photo_famille_kardashian" src="./images/the-kardashians-hulu.jpg" alt="photo de la famille kardashian">
-            <img class="sephora_logo" src="./images/sephora-logo.jpg" alt="logo sephora">
+    </div>
+    <div class="sec_droite">
+        <img class="sephora_ad" src="./images/sephora_ad.png" alt="pub parfum Dolce Gabbana">
+        <p class="titre"> Fashion Week de Milan : Kim Kardashian collabore avec Dolce & Gabbana lors d’un défilé-événement</p>
+        <p class="sous_titre"> Ce samedi 24 septembre, la maison de couture italienne a présenté sa collection printemps-été 2023, en collaboration avec Kim Kardashian. </p>
+        <p class="paragraphe"> Après New York et Londres, l’édition italienne de la Fashion Week s’est lancée à Milan le 20 septembre dernier avant d’investir la capitale française ce lundi 26 septembre. Entre les défilés-évènements, à l’instar de celui de Moncler qui fêtait ses 70 ans d’existence, et les grandes maisons italiennes qui ont placé la barre (très) haute cette saison, l’édition milanaise de la semaine de la mode nous a régalé durant 6 jours. </p>
+        <div class="wrapper">
+            <div class="the_only_one_ad"> <p class="texte_shop_now"> SHOP NOW </p> </div>
+            <div class="milano_fashion_week"> <p class="texte_milano"> MILANO <br> FASHION <br> WEEK <br> 22 </p></div>
+            <div class="tendinite"> <p class="texte_tendinite"> SOIGNER SA <br> TENDINITE VOTRE MEDECIN <br> VOUS REPOND </p></div>
+            <div class="famille_kardashian"> <p class="texte_kardashian"> NOUVELLE <br> SAISON </p></div>
+            <div class="sephora"></div>
         </div>
     </div>
 
-
+</main>
 </body>
 
 
